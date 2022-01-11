@@ -1,0 +1,159 @@
+header{
+    padding: 50px 0;
+    background-color: #FBF3E4;
+    border: black solid 1.2px;
+    border-radius: 10pt;
+}
+
+header img{
+    max-width: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+    
+}
+
+.caixa{
+    position: relative;
+    margin:0 auto;
+    max-width:940px;
+}
+
+.title{
+position: relative;
+left: 20px;
+top:10px;
+}
+
+
+nav{
+    position: relative;
+    top: -150px;
+    left: 500px;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+    font-size: 22px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:pink;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 90px;
+    position: relative;
+    right: 50px;
+    
+}
+
+h2{
+    font-size: 22px;
+ 
+}
+
+
+body{
+    background-color:hsl(348, 43%, 76%);
+    padding: 30px;
+    margin: auto;
+    
+}
+
+.produtos li{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 40%;
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: black 2px dashed;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #FBF3E4;
+}
+
+.produtos li:active{
+    border-color: #EE47B1;
+}
+
+.produtos li:hover h2{
+    font-size:35px;
+}
+
+ul img{
+    width: 280px;
+    margin: 20px 0;
+    border-radius: 5%;
+}
+
+
+.produtos{
+    width:1000px;
+    padding: 100px 250px;
+
+    
+}
+
+.produtos h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.produtos p{
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.formcontainer{
+    width: 400px;
+    margin-left: 37%;
+    float: center;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+
+input[type="submit"]{
+    background-color: powderblue;
+    font-weight: bold;
+}
+
+input[id="texto"]{
+    padding: 10px;
+}
+
+.formcontainer h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+footer{
+    text-align: center ;
+    font-size: 13px;
+ 
+    margin-bottom: 10px;
+    padding: 60px 0 0;
+   
+
+
+}

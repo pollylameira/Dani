@@ -3,13 +3,14 @@ header{
     background-color: #FBF3E4;
     border: black solid 1.2px;
     border-radius: 10pt;
-    width: 940px;
+    margin:auto;
+    position: relative;
 }
 
 header img{
     max-width: 200px;
     float: left;
-    margin-left: 50px;
+    margin-left: 300px;
     margin-right: 50px;
     margin-top: -30px;
     
@@ -18,14 +19,14 @@ header img{
 .caixa{
     position: relative;
     margin:0 auto;
-    max-width:940px;
+    /* max-width:940px; */
 }
 
 .title{
-position: relative;
-left: 20px;
-top:10px;
-}
+    position: relative;
+    left: 20px;
+    top:10px;
+    }
 
 
 nav{
@@ -70,7 +71,6 @@ body{
     background-color:hsl(348, 43%, 76%);
     padding: 30px;
     margin: auto;
-    
 }
 
 .produtos li{
@@ -154,7 +154,10 @@ footer{
  
     margin-bottom: 10px;
     padding: 60px 0 0;
-   
-
 
 }
+
+@media screen and (max-width: 992px) {
+    *{
+        width: 940px;
+    }
